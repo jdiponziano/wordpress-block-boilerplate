@@ -1,0 +1,24 @@
+{
+	"apiVersion": 2,
+	"name": "plugin-name/block-name",
+	"title": "Block Name",
+	"category": "plugin-name",
+	"description": "",
+	"textdomain": "plugin-name",
+	"attributes": {
+		"heading": {
+			"type": "string",
+			"source": "html",
+			"selector": ".hero__heading"
+		}
+	},
+	"supports": {
+		"html": false
+	},
+	"styles": [
+    { "name": "condensed", "label": "Condensed", "isDefault": true },
+    { "name": "large", "label": "Large" }
+  ],
+	"editorStyle": "plugin-name-main-blocks",
+	"editorScript": "plugin-name-main-blocks"
+}
